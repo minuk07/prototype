@@ -4,9 +4,8 @@
     {
       "name": "Moment",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 3456,
-      "autoPort": true
+      "runtimeArgs": ["run", "dev", "--", "--port", "3456"],
+      "port": 3456
     }
   ]
 }
